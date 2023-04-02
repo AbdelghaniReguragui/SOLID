@@ -1,6 +1,6 @@
 # Single Responsability Principle: Clean And Maintainable Code
 
-A class, module, or function has only one responsibility and it has to do it well. That means it should have one and only reason to change, so that makes it maintainable. When a class, module, or function has more than one responsibility, it becomes:
+Single Responsibility Principle says, "Every software module should have only one reason to change." so that means a class, module, or function has only one responsibility and it has to do it well. That means it should have one and only reason to change, so that makes it maintainable. When a class, module, or function has more than one responsibility, it becomes:
 
 - **Difficult to understand:** When a class or module has multiple responsibilities, it become complex and harder to understand.
 - **Difficult to maintain:** If a class or module has multiple responsibilities and one of this responsibilities has to be changed, it can affect the others responsibilities as well. This make the maintenance more difficult and increase likehood of introducting bugs into the code.
